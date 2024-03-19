@@ -1,0 +1,43 @@
+@use './sass/style'
+
+html
+    scroll-behavior: smooth
+    *
+        margin: 0
+        padding: 0
+    .Form-button
+        @include style.font1(1.2rem)
+        color: style.$white
+        width: 90%
+        background-color: style.$gray2
+        border: none
+        padding: .5rem 0
+        border-radius: 20px
+        cursor: pointer
+        text-align: center
+        text-decoration: none
+    .Form-button:active
+        transform: scale(.85)
+    .Form-input
+        @include style.font2(1.2rem)
+        background-color: style.$gray1
+        border: none
+        padding: .3rem .5rem
+        width: calc( 100% - 1rem )
+        outline: 1px solid style.$white
+        color: style.$white
+    .upload-file
+        display: none
+    .upload-file-label
+        @include style.font1(1.3rem)
+        display: inline-block
+        width: 100%
+        padding: .3rem 0
+        margin: 1rem 0
+        background-color: style.$black
+        color: style.$white
+        border-radius: 20px
+        cursor: pointer
+        text-align: center
+    body
+        background-color: style.$black
