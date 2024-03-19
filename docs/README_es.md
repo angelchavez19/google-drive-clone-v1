@@ -3,10 +3,7 @@
 Un clon de google drive minimalista
 
 - [Documentación en ingles](../README.md)
-
-## DEMO
-
-![Demo](https://youtu.be/cA-ixmOaHZY)
+- [Demo](https://youtu.be/cA-ixmOaHZY)
 
 ## Configurar Proyecto en local
 
